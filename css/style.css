@@ -4,6 +4,10 @@
     
 }
 
+.eggshellText{
+    color: #FDFDF5
+}
+
 .brick {
     background-color: #8A3E30;
 }
@@ -95,12 +99,17 @@ h6 {
     font-stretch: semi-expanded;
     font-size: 20pt;
 }
+/* Whole Document Styles */
+body{
+    margin: 8px 0px 0px 0px;
 
+}
 /* Nav Styles */
 nav{
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    margin: 0px 8px;
 }
 
 #menu{
@@ -159,4 +168,17 @@ a.brickText{
 
 #aboutme > div > h3:first-child{
     margin-top: 0px;
+}
+
+/* Skills Section */
+#skills{
+    display: flex;
+}
+
+#tech{
+    width: 50%;
+}
+
+#softskills{
+    width: 50%;
 }
