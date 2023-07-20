@@ -1,0 +1,135 @@
+/* Colors */
+.eggshell {
+    background-color: #FDFDF5;
+    
+}
+
+.brick {
+    background-color: #8A3E30;
+}
+
+.brickText {
+    color: #8A3E30;
+}
+
+.salmon {
+    background-color: #db9281;
+}
+
+.greyblue {
+    background-color: #e4f4f3;
+}
+
+.lightteal {
+    background-color: #92bebf;
+}
+
+.teal {
+    background-color: #055d67;
+}
+
+/* Typography */
+h1 {
+    font-family: Karla, sans-serif;
+    font-size: 84pt;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Karla, sans-serif;
+    font-size: 64pt;
+    font-weight: 550;
+}
+
+h2.sub {
+    font-family: Inconsolata, Courier, monospace;
+    font-size: 48pt;
+    font-weight: 550;
+    font-stretch: semi-expanded;
+}
+
+h3 {
+    font-family: Karla, sans-serif;
+    font-size: 48pt;
+    font-weight: bold;
+}
+
+h3.sub {
+    font-family: Inconsolata, Courier, monospace;
+    font-size: 36pt;
+    font-weight: 550;
+    font-stretch: semi-expanded;
+}
+
+h4 {
+    font-family: Karla, sans-serif;
+    font-size: 40pt;
+    font-weight: 550;
+}
+
+h5 {
+    font-family: Karla, sans-serif;
+    font-size: 36pt;
+}
+
+h6 {
+    font-family: Karla, sans-serif;
+    font-size: 28pt;
+    font-weight: 550;
+}
+
+
+.buttonLabel {
+    font-family: Karla, sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+}
+
+.body {
+    font-family: Inconsolata;
+    font-stretch: semi-expanded;
+    font-size: 20pt;
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#menu{
+    display: flex;
+}
+
+.menuItem{
+    margin: 0px 20px;
+}
+a.brickText{
+    text-decoration: none;
+    color:#8A3E30
+}
+
+.logo{
+    object-fit: scale-down;
+}
+
+#socials{
+    display:flex;
+    width: 100px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+}
+#contact{
+    padding: 10px 0px;
+}
+.contactMe{
+    color:#FDFDF5;
+    writing-mode: vertical-rl;
+    margin: 0px;
+}
