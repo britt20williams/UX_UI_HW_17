@@ -16,6 +16,11 @@
     background-color: #db9281;
 }
 
+.salmonText {
+    color: #db9281;
+}
+
+
 .greyblue {
     background-color: #e4f4f3;
 }
@@ -132,4 +137,26 @@ a.brickText{
     color:#FDFDF5;
     writing-mode: vertical-rl;
     margin: 0px;
+}
+
+/* Content--Bio */
+#bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 138px;
+}
+
+#photo{
+    object-fit: scale-down;
+    margin-left: 138px;
+}
+
+#aboutme{
+    display: flex;
+    align-items: flex-start;
+}
+
+#aboutme > div > h3:first-child{
+    margin-top: 0px;
 }
