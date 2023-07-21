@@ -182,3 +182,17 @@ a.brickText{
 #softskills{
     width: 50%;
 }
+
+#tech > h3, #softskills > h3{
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+
+#tech > div, #softskills > ul{
+    margin: 0px 64px;
+}
+
+#softskills > ul > li{
+    padding-top: 26px;
+}
