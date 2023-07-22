@@ -29,14 +29,25 @@
     background-color: #e4f4f3;
 }
 
+.greyblueText{
+    color: #e4f4f3;
+}
+
 .lightteal {
     background-color: #92bebf;
+}
+
+.lighttealText{
+    color: #92bebf;
 }
 
 .teal {
     background-color: #055d67;
 }
 
+.tealText{
+    color: #055d67;
+}
 /* Typography */
 h1 {
     font-family: Karla, sans-serif;
@@ -76,6 +87,12 @@ h4 {
     font-weight: 550;
 }
 
+h4.sub{
+    font-family: Inconsolata, Courier, monospace;
+    font-size: 28pt;
+    font-weight: 550;
+    font-stretch: semi-expanded;
+}
 h5 {
     font-family: Karla, sans-serif;
     font-size: 36pt;
@@ -146,6 +163,7 @@ a.brickText{
     color:#FDFDF5;
     writing-mode: vertical-rl;
     margin: 0px;
+    font-size: 24px;
 }
 
 /* Content--Bio */
@@ -183,7 +201,7 @@ a.brickText{
     width: 50%;
 }
 
-#tech > h3, #softskills > h3{
+#skills > div > h3, #jobs > div > h3{
     margin-top: 32px;
     margin-left: 16px;
     margin-bottom: 0px;
@@ -195,4 +213,38 @@ a.brickText{
 
 #softskills > ul > li{
     padding-top: 26px;
+}
+
+/* Jobs Section */
+#jobs{
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#jobs > div > p{
+    margin: 10px 64px;
+}
+
+#jobs > div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#jobs > div > h4{
+    margin: 5px 16px;
+    padding-bottom: 5px;
+}
+
+/* Fooder */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > h4{
+    margin: 5px;
 }
