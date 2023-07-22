@@ -107,7 +107,7 @@ h6 {
 
 .buttonLabel {
     font-family: Karla, sans-serif;
-    font-size: 36pt;
+    font-size:26pt;
     font-weight: bold;
 }
 
@@ -167,6 +167,36 @@ a.brickText{
     font-size: 24px;
 }
 
+/* Intro */
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro > h2, #intro > h4 {
+    margin: 0px;
+}
+
+#summary{
+    margin: 0px 12%;
+}
+
+#summary > h3{
+    margin: 0px;
+}
+
+#buttons{
+    display: flex;
+    margin: 16px;
+    justify-content: space-evenly;
+}
+
+#buttons > a{
+    border-radius: 8px;
+    padding: 16px;
+    margin: 15px;
+}
 /* Content--Bio */
 #bio{
     display: flex;
@@ -191,21 +221,32 @@ a.brickText{
 }
 
 /* Skills Section */
-#skills{
+#skills, #ux_projects{
     display: flex;
 }
 
-#tech{
+#ux_projects > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+/* #ux_projects > div > img{
+    object-fit: scale-down;
+} */
+
+#tech, #running-start{
     width: 50%;
     border-radius: 8px;
 }
 
-#softskills{
+#softskills, #nsa{
     width: 50%;
     border-radius: 8px;
 }
 
-#skills > div > h3, #jobs > div > h3{
+#skills > div > h3, #jobs > div > h3, #running-start > h3, #nsa > h3, #dev_projects > div > h3{
     margin-top: 32px;
     margin-left: 16px;
     margin-bottom: 0px;
@@ -213,6 +254,10 @@ a.brickText{
 
 #tech > div, #softskills > ul{
     margin: 0px 64px;
+}
+
+#running-start > div, #nsa > div{
+    margin:auto;
 }
 
 #softskills > ul > li{
@@ -225,7 +270,7 @@ a.brickText{
 }
 
 /* Jobs Section */
-#jobs{
+#jobs, #dev_projects{
     display:grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
@@ -235,19 +280,23 @@ a.brickText{
     margin: 10px 64px;
 }
 
-#jobs > div{
+#dev_projects > div > p{
+    margin: 64px 64px;
+}
+
+#jobs > div, #dev_projects > div{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 8px;
 }
 
-#jobs > div > h4{
+#jobs > div > h4, #dev_projects > div > h4, #ux_projects > div > h4{
     margin: 5px 16px;
     padding-bottom: 5px;
 }
 
-/* Fooder */
+/* Footer */
 
 footer{
     display: flex;
