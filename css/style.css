@@ -150,6 +150,7 @@ a.brickText{
     width: 100px;
     justify-content: center;
     border-radius: 8px;
+    padding: 5px 0px;
 }
 
 .column{
@@ -177,6 +178,7 @@ a.brickText{
 #photo{
     object-fit: scale-down;
     margin-left: 138px;
+    border-radius: 8px;
 }
 
 #aboutme{
@@ -195,10 +197,12 @@ a.brickText{
 
 #tech{
     width: 50%;
+    border-radius: 8px;
 }
 
 #softskills{
     width: 50%;
+    border-radius: 8px;
 }
 
 #skills > div > h3, #jobs > div > h3{
@@ -213,6 +217,11 @@ a.brickText{
 
 #softskills > ul > li{
     padding-top: 26px;
+}
+
+.label{
+    font-weight: bold;
+    padding-right: 10px;
 }
 
 /* Jobs Section */
@@ -230,6 +239,7 @@ a.brickText{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 8px;
 }
 
 #jobs > div > h4{
@@ -243,8 +253,9 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 8px;
 }
 
-footer > h4{
-    margin: 5px;
+footer > h6{
+    margin: 10px;
 }
